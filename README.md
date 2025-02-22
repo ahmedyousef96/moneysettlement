@@ -1,6 +1,8 @@
 ## MoneySettlement
 
-MoneySettlement
+Money Settlement APP
+
+Release V 0.01
 
 #### License
 

@@ -6,7 +6,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "treasurer_name"
+  "treasurer_name",
+  "mobile_number"
  ],
  "fields": [
   {
@@ -16,11 +17,17 @@
    "label": "Treasurer Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Phone",
+   "label": "Mobile Number",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-21 22:42:04.007696",
+ "modified": "2025-02-23 00:36:55.230069",
  "modified_by": "Administrator",
  "module": "MoneySettlement",
  "name": "Treasurer",

@@ -2,7 +2,7 @@
 
 Money Settlement APP
 
-Release V 0.01
+Release V 0.02
 
 #### License
 

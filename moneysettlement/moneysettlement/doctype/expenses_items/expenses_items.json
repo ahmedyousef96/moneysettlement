@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:item",
+ "creation": "2025-02-21 00:06:17.953364",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "project_based",
+  "column_break_endx",
+  "project",
+  "car_based"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "item",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "project_based",
+   "fieldtype": "Select",
+   "label": "Project Based",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_endx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval: doc.project_based == 'Yes'",
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "mandatory_depends_on": "eval: doc.project_based == 'Yes'",
+   "options": "Projects Data"
+  },
+  {
+   "fieldname": "car_based",
+   "fieldtype": "Select",
+   "label": "Car Based",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-22 02:33:34.853704",
+ "modified_by": "Administrator",
+ "module": "MoneySettlement",
+ "name": "Expenses Items",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

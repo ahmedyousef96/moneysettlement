@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Daily Transaction",
+  "enabled": 1,
+  "modified": "2025-02-23 20:51:55.991257",
+  "module": "MoneySettlement",
+  "name": "Enhance Daily Transaction Doctype",
+  "script": "frappe.ui.form.on('Daily Transaction', {\n\trefresh(frm) {\n\t\t// your code here\n\t}\n})",
+  "view": "Form"
+ }
+]

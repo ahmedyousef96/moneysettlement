@@ -8,6 +8,8 @@ app_license = "mit"
 # Apps
 # ------------------
 
+fixtures = ["Server Script" , "Client Script"]
+
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
@@ -241,4 +243,6 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
+
 

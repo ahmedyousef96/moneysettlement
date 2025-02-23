@@ -1,0 +1,37 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"C5DdHWcP0u\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Money Settlement</span>\",\"col\":12}},{\"id\":\"Y95yjDlV2p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Transaction\",\"col\":3}}]",
+ "creation": "2025-02-23 17:28:09.591444",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Money Settlement",
+ "links": [],
+ "modified": "2025-02-23 17:29:38.394884",
+ "modified_by": "Administrator",
+ "module": "MoneySettlement",
+ "name": "Money Settlement",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Daily Transaction",
+   "link_to": "Daily Transaction",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Money Settlement"
+}
